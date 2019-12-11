@@ -5,6 +5,6 @@ function testFunc() {
 }
 
 function superbowlWin(record){
-  record.find(record => record.result==='W')
+  return record.find(record => record.result==='W')
   return !!record ? record.year : undefined;
 }
