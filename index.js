@@ -5,6 +5,6 @@ function testFunc() {
 }
 
 function superbowlWin(record){
-  boobs = record.find(record => record.result ==='W')
-  return !!record ? year : undefined;
+  let boobs = record.find(record => record.result ==='W')
+  return !!boobs ? boobs.year : undefined;
 }
